@@ -99,3 +99,31 @@ nav{
   display: flex;
   flex-direction: column;
 }
+
+.two-column {
+  display: flex;
+  gap: 40px;
+  border: none;
+  padding: 20px;
+  flex-wrap: wrap;
+  min-width: 260px;
+}
+.left, .right {
+  background: white;
+  border: 2px solid black;
+  padding: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.left .text, .right .text{
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.left img, .right img{
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
