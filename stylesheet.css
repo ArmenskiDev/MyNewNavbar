@@ -17,7 +17,7 @@ body{
 nav{
   display: flex;
   gap: 20px;
-  margin: 0 auto;   /* this centers nav between logo and sign */
+  margin: 0 auto;
 }
 
 .button{
@@ -26,7 +26,7 @@ nav{
   padding: 20px;
   font-size: 30px;
 
-  border-bottom: 1px solid transparent; /* reserve space */
+  border-bottom: 1px solid transparent;
 }
 
 .button:hover{
@@ -48,7 +48,7 @@ nav{
 .sign a{
   text-decoration: none;
   color: black;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .sign a:hover{
